@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace';
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #4203a9, #90bafc);
+    color: #fff;
+    padding: 10px;
+}
+
+.calculator{
+    width: 100%;
+    max-width: 600px;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.calculator h1{
+    font-size: 60px;
+}
+
+.input-box{
+    margin: 40px 0;
+    padding: 35px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    align-items: center;
+}
+
+
+
+.input-box button {
+    padding: 10px 15px;
+    font-size: 16px; 
+    background-color: #007bff; 
+    color: white;
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+}
+
+.input-box button:hover {
+    background-color: #0056b3; 
+}
+
+.input-box input::-webkit-calendar-picker-indicator {
+    opacity: 0; /* Makes the icon invisible but keeps it functional */
+    cursor: pointer; /* Ensures the input remains clickable */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.input-box input {
+    position: relative;
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    cursor: pointer; /* Allows clicking anywhere */
+}
+
+
+
